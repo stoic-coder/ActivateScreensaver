@@ -7,7 +7,7 @@ I've got some screen savers which react on audio input and I want them to start 
 However not all the time. This program shows a 10 second warning before it starts the screensaver.
 I can cancel the screensaver during this time period.
 
-The screensaver is startet ba a command which is configured in Hass.Agent via Home Assistant and Node Red.
+The screensaver is startet by a command which is configured in HASS.Agent via Home Assistant and Node Red.
 
 [HASS.Agent for Windows]https://github.com/hass-agent  
 [Home Assistant]https://github.com/home-assistant  
