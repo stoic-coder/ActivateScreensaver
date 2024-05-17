@@ -27,18 +27,6 @@ implementation
 
 uses modal;
 
-procedure pause(zeit: longint);
-
-var
-  z1: longint;
-
-begin
-  z1 := GetTickCount;
-  repeat
-    Application.ProcessMessages
-  until (GetTickCount - z1 > zeit);
-end;
-
 {$R *.dfm}
 
 procedure TFormMain.FormShow(Sender: TObject);
