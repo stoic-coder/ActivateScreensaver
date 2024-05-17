@@ -8,7 +8,7 @@ However not all the time. This program shows a 10 second warning before it start
 
 The screensaver is startet ba a command which is configured in Hass.Agent via Home Assistant and Node Red.
 
-[HASS.Agent for Windows]https://github.com/hass-agent
-[Home Assistant]https://github.com/home-assistant
-[Node-Red]https://github.com/node-red/node-red
+[HASS.Agent for Windows]https://github.com/hass-agent\
+[Home Assistant]https://github.com/home-assistant\
+[Node-Red]https://github.com/node-red/node-red\
 
