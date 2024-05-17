@@ -63,3 +63,5 @@ Backup *.*
 *.res
 *.dproj
 !dproj/*.dproj
+
+__recovery/
