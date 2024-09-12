@@ -848,11 +848,9 @@ object FormMain: TFormMain
     03F03FFF0000FFFF03F8FFFF0000FFFFC7FFFFFF0000FFFFFFFFFFFF0000FFFF
     FFFFFFFF0000}
   Menu = MainMenu
-  OldCreateOrder = True
   Position = poScreenCenter
   WindowState = wsMinimized
   OnShow = FormShow
-  PixelsPerInch = 96
   TextHeight = 13
   object MainMenu: TMainMenu
     Left = 88

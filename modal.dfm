@@ -849,10 +849,10 @@ object FormModal: TFormModal
     0000003F0000FF000000007F0000FF80000001FF0000FFE0000007FF0000FFF8
     00001FFF0000FFFF8001FFFF0000FFFFFFFFFFFF0000FFFFFFFFFFFF0000FFFF
     FFFFFFFF0000}
-  OldCreateOrder = True
   Position = poScreenCenter
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
   OnShow = FormShow
-  PixelsPerInch = 96
   TextHeight = 13
   object LabelCounter: TLabel
     Left = 26
