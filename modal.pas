@@ -196,7 +196,7 @@ end;
 
 procedure TFormModal.FormShow(Sender: TObject);
 begin
-  SetScreensaver(GForcePath, 100, true);
+  SetScreensaver(GForcePath, 3600, true);
   ThreadCounter := TThreadCounter.Create;
 end;
 
