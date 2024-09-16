@@ -50,8 +50,8 @@ initialization
   // 'xxxxx' Der Anwendungsname ist hier einzutragen
   if GetLastError = ERROR_ALREADY_EXISTS then begin
     // Anwendung läuft bereits
-    Beep;
-    showMessage(exename  + ' läuft bereits!');
+//    Beep;
+//    showMessage(exename  + ' läuft bereits!');
     // Wenn du deine Meldung willst, mach die Klammern weg
     Halt;
   end;

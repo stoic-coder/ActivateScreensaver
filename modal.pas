@@ -86,8 +86,7 @@ begin
   end;
 end;
 
-procedure TFormModal.SetScreensaver(const ScreensaverPath: string;
-  Timeout: Integer; Active: Boolean);
+procedure TFormModal.SetScreensaver(const ScreensaverPath: string;  Timeout: Integer; Active: Boolean);
 var
   Reg: TRegistry;
 begin
